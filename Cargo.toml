@@ -1,6 +1,9 @@
 [workspace]
 members = [
-    "backend/canisters/user"
+    "backend/canisters/user",
+    "backend/libraries/canister_state_macros",
+    "backend/libraries/types",
+    "backend/libraries/utils"
 ]
 resolver = "2"
 

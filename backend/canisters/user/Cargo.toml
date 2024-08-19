@@ -8,4 +8,17 @@ crate-type = ["cdylib"]
 
 [dependencies]
 candid = { workspace = true }
+canister_state_macros = { path = "../../libraries/canister_state_macros" }
+# canister_logger = { path = "../../libraries/canister_logger" }
+getrandom = { version = "0.2", features = ["js"] }
 ic-cdk = { workspace = true }
+ic-cdk-macros = { workspace = true }
+ic-cdk-timers = { workspace = true }
+ic-stable-structures = { workspace = true }
+rand = { workspace = true }
+serde = { workspace = true }
+# stable_memory = { path = "../../libraries/stable_memory" }
+# serializer = { path = "../../libraries/serializer" }
+tracing = { workspace = true }
+types = { path = "../../libraries/types" }
+utils = { path = "../../libraries/utils" }
